@@ -3,8 +3,6 @@ package com.fidel.patterns.structural.composite;
 import java.text.MessageFormat;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Set;
-import java.util.TreeSet;
 
 public class DocumentComponent implements IDocumentComponent {
     private String name;

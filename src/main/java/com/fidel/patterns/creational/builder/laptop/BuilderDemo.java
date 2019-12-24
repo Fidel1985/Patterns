@@ -1,4 +1,4 @@
-package com.fidel.patterns.creational.builder;
+package com.fidel.patterns.creational.builder.laptop;
 
 /**
  * Builder. Intent. Separate the construction of a complex object from its representation so that the same construction

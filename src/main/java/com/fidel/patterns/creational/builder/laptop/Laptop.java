@@ -1,4 +1,4 @@
-package com.fidel.patterns.creational.builder;
+package com.fidel.patterns.creational.builder.laptop;
 
 public class Laptop {
     private String monitorResolution;

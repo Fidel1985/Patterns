@@ -1,4 +1,4 @@
-package com.fidel.patterns.creational.builder;
+package com.fidel.patterns.creational.builder.laptop;
 
 class BuyLaptop {
     private LaptopBuilder laptopBuilder;
