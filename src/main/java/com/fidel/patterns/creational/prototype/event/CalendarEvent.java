@@ -1,4 +1,4 @@
-package com.fidel.patterns.creational.prototype;
+package com.fidel.patterns.creational.prototype.event;
 
 import java.util.Arrays;
 import java.util.Date;

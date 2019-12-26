@@ -1,4 +1,4 @@
-package com.fidel.patterns.creational.prototype;
+package com.fidel.patterns.creational.prototype.event;
 
 import com.google.common.base.MoreObjects;
 

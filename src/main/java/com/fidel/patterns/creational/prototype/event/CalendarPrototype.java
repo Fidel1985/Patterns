@@ -1,4 +1,4 @@
-package com.fidel.patterns.creational.prototype;
+package com.fidel.patterns.creational.prototype.event;
 
 public class CalendarPrototype implements Cloneable {
     CalendarPrototype myClone() {
