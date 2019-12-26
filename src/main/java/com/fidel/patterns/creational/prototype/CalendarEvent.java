@@ -1,9 +1,14 @@
 package com.fidel.patterns.creational.prototype;
 
+import java.util.Arrays;
 import java.util.Date;
+import java.util.stream.Collectors;
 
 import com.google.common.base.MoreObjects;
 
+/**
+ * This is actual Prototype object
+ */
 public class CalendarEvent extends CalendarPrototype {
     private Attendee[] attendees;
     private Priority priority;
@@ -13,10 +18,10 @@ public class CalendarEvent extends CalendarPrototype {
     public CalendarPrototype myClone() {
         CalendarEvent copy = null;
         try {
-            copy = (CalendarEvent)super.clone();
-            Attendee[] copiedAttendees = attendees.clone();
+            copy = (CalendarEvent) super.clone();
+            Attendee[] copiedAttendees = this.attendees.clone();
             copy.setAttendees(copiedAttendees);
-            Priority copiedPriority = (Priority)priority.clone();
+            Priority copiedPriority = this.priority;
             copy.setPriority(copiedPriority);
         } catch (CloneNotSupportedException e) {
             e.printStackTrace();
@@ -51,7 +56,7 @@ public class CalendarEvent extends CalendarPrototype {
     @Override
     public String toString() {
         return MoreObjects.toStringHelper(this)
-                .add("attendees", attendees[0])
+                .add("attendees", Arrays.stream(attendees).map(Attendee::toString).collect(Collectors.joining()))
                 .add("priority", priority)
                 .add("startDateAndTime", startDateAndTime)
                 .toString();
