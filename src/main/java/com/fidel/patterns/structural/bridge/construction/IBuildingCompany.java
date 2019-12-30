@@ -1,4 +1,4 @@
-package com.fidel.patterns.structural.bridge;
+package com.fidel.patterns.structural.bridge.construction;
 
 interface IBuildingCompany {
     void buildFoundation();

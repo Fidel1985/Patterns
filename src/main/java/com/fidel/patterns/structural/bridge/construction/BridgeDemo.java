@@ -1,4 +1,4 @@
-package com.fidel.patterns.structural.bridge;
+package com.fidel.patterns.structural.bridge.construction;
 
 /**
  * Bridge. Intent. Decouple an abstraction from its implementation so that the two can vary independently.

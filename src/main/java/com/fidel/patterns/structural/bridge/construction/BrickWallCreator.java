@@ -1,4 +1,4 @@
-package com.fidel.patterns.structural.bridge;
+package com.fidel.patterns.structural.bridge.construction;
 
 public class BrickWallCreator implements IBuildingCompany.IWallCreator {
 
