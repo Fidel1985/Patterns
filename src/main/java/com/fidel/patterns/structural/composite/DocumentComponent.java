@@ -15,10 +15,11 @@ public class DocumentComponent implements IDocumentComponent {
     @Override
     public String gatherData() {
         StringBuilder buffer = new StringBuilder();
-        MessageFormat format = new MessageFormat("<{0}>{1}<{2}>");
+        buffer.append(MessageFormat.format("<{0}>\n", name));
         for (IDocumentComponent documentComponent : documentComponents) {
-            buffer.append(String.format(name, documentComponent.gatherData(), name, format));
+            buffer.append(documentComponent.gatherData()).append("\n");
         }
+        buffer.append(MessageFormat.format("</{0}>", name));
         return buffer.toString();
     }
 

@@ -17,8 +17,8 @@ public class CustomerDocumentComponent implements IDocumentComponent {
             default: customerData = "Someone else";
                 break;
         }
-        MessageFormat format = new MessageFormat("<Customer>{0}</Customer>");
-        return String.format(customerData, format);
+        String pattern = "<Customer>{0}</Customer>";
+        return MessageFormat.format(pattern, customerData);
     }
 
     @Override
