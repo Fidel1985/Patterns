@@ -1,4 +1,4 @@
-package com.fidel.patterns.structural.facade.medialibrary;
+package com.fidel.patterns.structural.facade.media_library;
 
 import java.io.File;
 

@@ -1,4 +1,4 @@
-package com.fidel.patterns.structural.facade.skiholidays;
+package com.fidel.patterns.structural.facade.ski_holidays;
 
 /**
  Facade. Intent. Provide a unified interface to a set of interfaces in a subsystem. Facade defines a higher-level

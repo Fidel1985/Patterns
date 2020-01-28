@@ -1,4 +1,4 @@
-package com.fidel.patterns.structural.facade.skiholidays;
+package com.fidel.patterns.structural.facade.ski_holidays;
 
 public class SkiResortTicketSystem {
 

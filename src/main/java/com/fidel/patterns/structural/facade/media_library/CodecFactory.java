@@ -1,4 +1,4 @@
-package com.fidel.patterns.structural.facade.medialibrary;
+package com.fidel.patterns.structural.facade.media_library;
 
 public class CodecFactory {
     public static Codec extract(VideoFile file) {
