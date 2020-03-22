@@ -1,6 +1,6 @@
 package com.fidel.patterns.structural.flyweight.game;
 
-public class Dragon extends Goblin {
+public class Dragon extends Unit {
 
     public Dragon() {
         setName("Dragon");
